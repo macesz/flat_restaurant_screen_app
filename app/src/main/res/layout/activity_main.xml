@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.android.flatrestaurant.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="570dp"
+            >
+
+            <LinearLayout
+                style="@style/Layout_main_container">
+
+                <LinearLayout
+                    style="@style/Layout_pictures_container">
+
+                    <LinearLayout
+                        style="@style/Layout_picture_columnes">
+
+                        <ImageView
+                            style="@style/main_imageview"
+                            android:src="@drawable/souparmen"
+                            />
+                        <ImageView
+                            style="@style/main_imageview"
+                            android:src="@drawable/chicken"
+                            />
+                        <ImageView
+                            style="@style/main_imageview"
+                            android:src="@drawable/salat"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/Layout_picture_columnes">
+
+                        <ImageView
+                            style="@style/main_imageview"
+                            android:src="@drawable/ossobucco"/>
+                        <ImageView
+                            style="@style/main_imageview"
+                            android:src="@drawable/langos"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/Layout_bottom_text">
+
+                    <TextView
+                        style="@style/Textview_bottom_text"
+                        android:text="@string/book_a_table"
+                        />
+
+                    <LinearLayout
+                        style="@style/Layout_bottom_text_with_icon">
+
+                        <TextView
+                            style="@style/Textview_bottom_text"
+                            android:text="@string/check_me"/>
+
+                        <ImageView
+                            style="@style/Insta_icon_imageview"
+                            android:src="@drawable/instagram"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/macesz_text_view"
+                style="@style/Textview_title_text"
+                android:text="Macesz Flat Restaurant"/>
+
+            <TextView
+                style="@style/Textview_subtitle_text"
+                android:text="Great food nice ambiance"/>
+
+        </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            style="main_imageview"
+                            android:layout_width="0dp"
+                            android:layout_height="120dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/beef"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="120dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/sajttorta"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="120dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/bone_mellow"/>
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/food_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/example_menu"/>
+                    <TextView
+                        style="@style/food_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/spoons_shot"/>
+                    <TextView
+                        style="@style/food_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/spoons_shot_desc"/>
+                    <TextView
+                        style="@style/food_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/starter"/>
+                    <TextView
+                        style="@style/food_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/starter_desc"/>
+                    <TextView
+                        style="@style/food_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/soup"/>
+                    <TextView
+                        style="@style/food_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/soup_desc"/>
+                    <TextView
+                        style="@style/food_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/main_fish"/>
+                    <TextView
+                        style="@style/food_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/main_fish_desc"/>
+                    <TextView
+                        style="@style/food_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/main_meat"/>
+                    <TextView
+                        style="@style/food_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/main_meat_desc"/>
+                    <TextView
+                        style="@style/food_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/friut_dessert"/>
+                    <TextView
+                        style="@style/food_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fruit_dessert_desc"/>
+                    <TextView
+                        style="@style/food_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dessert"/>
+
+
+
+                </LinearLayout>
+</ScrollView>
