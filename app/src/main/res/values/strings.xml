@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Flat restaurant</string>
+    <string name="title_macesz">Macesz Flat Restaurant</string>
+    <string name="sub_title_macesz">Great food nice ambiance</string>
+    <string name="book_a_table">Book a table: 0670-945-1098</string>
+    <string name="check_me">Check me on istagram: maceszfood</string>
+    <string name="example_menu">EXAMPLE MENU</string>
+    <string name="spoons_shot">Spoons and Shots</string>
+    <string name="spoons_shot_desc">Goose liver terrine with cherry and palinka jelly in individual spoons, served with small brioche toasts and our first palinka shot</string>
+    <string name="starter">Grilled mellow bone</string>
+    <string name="starter_desc">with parsley, paprika flakes, and rose pepper, served with crunchy toast</string>
+    <string name="soup">Duck meat soup</string>
+    <string name="soup_desc">with ravioli stuffed with the meat cooked in the soup</string>
+    <string name="main_fish">Grilled calamari</string>
+    <string name="main_fish_desc">with lemony chickpeas and smoky eggplant spread with labane (a special Druze yoghurt)</string>
+    <string name="main_meat">Beef file medallion</string>
+    <string name="main_meat_desc">brown gravy sauce with wild mushroom, served with sweet potato gnocchi</string>
+    <string name="friut_dessert">Baked quince</string>
+    <string name="fruit_dessert_desc">with wine, and rose water, served with, goat cheese and yoghurt spread</string>
+    <string name="dessert">Cheesecake with pistachio</string>
+
+</resources>

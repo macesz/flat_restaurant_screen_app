@@ -1,0 +1,138 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Layout main container theme. -->
+    <style name="Layout_main_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Layout pictures container theme. -->
+
+    <style name="Layout_pictures_container">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- Layout picture column theme. -->
+
+    <style name="Layout_picture_columnes">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- Main Imageview theme. -->
+
+    <style name="main_imageview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Layout bottom textbox theme. -->
+
+    <style name="Layout_bottom_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">0</item>
+    </style>
+
+    <!-- Textview bottom theme. -->
+
+    <style name="Textview_bottom_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/fontSizeNormal</item>
+        <item name="android:textColor">@color/colorTextMain</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- Layout bottom textbox with icon theme. -->
+
+    <style name="Layout_bottom_text_with_icon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">@dimen/paddingLeftInsta</item>
+    </style>
+
+    <!-- Insta Icon theme. -->
+
+    <style name="Insta_icon_imageview">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:padding">@dimen/paddingTextBox</item>
+    </style>
+
+    <!-- Textview title theme. -->
+
+    <style name="Textview_title_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/fontSizeTitle</item>
+        <item name="android:textColor">@color/colorTextMain</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:paddingTop">@dimen/paddingTextBox</item>
+        <item name="android:paddingBottom">@dimen/paddingTextBox</item>
+        <item name="android:background">@color/colorOpaBlue</item>
+    </style>
+
+    <!-- Textview subtitle theme. -->
+
+    <style name="Textview_subtitle_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/fontSizeNormal</item>
+        <item name="android:textColor">@color/colorTextMain</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:paddingTop">@dimen/paddingTextBox</item>
+        <item name="android:paddingBottom">@dimen/paddingTextBox</item>
+        <item name="android:background">@color/colorOpaBlue</item>
+        <item name="android:layout_below">@id/macesz_text_view</item>
+    </style>
+
+    <!-- Exemple menu food title theme. -->
+
+
+    <style name="food_title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/fontSizeNormal</item>
+        <item name="android:textColor">@color/colorTextMain</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <!-- Exemple menu food descreption theme. -->
+
+    <style name="food_desc">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/fontSizeNormal</item>
+        <item name="android:textColor">@color/colorTextMain</item>
+        <item name="android:padding">2dp</item>
+    </style>
+</resources>
